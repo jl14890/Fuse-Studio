@@ -1,5 +1,8 @@
+body,
+html,
 #root {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0rem;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
