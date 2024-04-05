@@ -14,9 +14,20 @@ body,
   padding: 0;
 }
 
+
+
 body {
-  font-family: 'Inter', sans-serif;
-  background: #d0d0d0;
+  font-family: "Raleway", sans-serif;
+  background: #fafafa;
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome, Opera, and Edge */
+  cursor: default;
 }
 
 a {
@@ -29,24 +40,20 @@ a {
   text-decoration: none;
 }
 
-svg {
-  fill: black;
-  width: 52px !important;
-}
-
 @keyframes fade-in {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
 }
 
 canvas {
-  opacity: 0;
+  opacity: 1;
   touch-action: none;
-  animation: fade-in 5s ease 1s forwards;
+  /* animation: fade-in 2s ease 1s forwards; */
   z-index: 0;
 }
 
@@ -69,13 +76,22 @@ li {
   padding: 0px;
 }
 
+.cusButton {
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  display: inline-block;
+  /* font-family: 'Major Mono Display', monospace; */
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+
 .info {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   transform: translate3d(-50%, -50%, 0);
-  border-left: 1px solid black;
+  /* border-left: 1px solid black; */
   padding-left: 40px;
   user-select: none;
   pointer-events: none;
@@ -87,14 +103,9 @@ li {
   margin-bottom: 0.2em;
 }
 
-.accent {
-  -webkit-text-stroke: 1px black;
-  color: transparent;
-}
-
 .price {
   display: inline-block;
-  font-family: 'Major Mono Display', monospace;
+  font-weight: 100;
   background: black;
   color: white;
   padding: 5px 10px;
@@ -108,9 +119,9 @@ li {
 }
 
 .info h3 {
-  font-weight: 800;
+  font-weight: 900;
   font-size: 5em;
-  letter-spacing: -4px;
+  letter-spacing: 0px;
   line-height: 1em;
   margin: 0;
 }
@@ -118,6 +129,6 @@ li {
 .info h4 {
   font-weight: 300;
   font-size: 1.15em;
-  letter-spacing: -1px;
+  letter-spacing: 0px;
   margin: 10px 0;
 }
