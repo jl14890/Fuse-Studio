@@ -119,7 +119,7 @@ export function Overlay() {
       }}>
         <div style={{
           position: 'absolute',
-          bottom: 60,
+          bottom: 40,
           right: 40,
           display: 'flex',          // Use flexbox for horizontal layout
           alignItems: 'flex-end',
