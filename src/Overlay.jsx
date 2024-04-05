@@ -124,11 +124,11 @@ export function Overlay() {
           display: 'flex',          // Use flexbox for horizontal layout
           alignItems: 'flex-end',
           justifyContent: 'space-between', // Distribute space between images
-          width: '120px', // Adjust the width as necessary
+          width: '80px', // Adjust the width as necessary
         }}>
-          <img src="public/assets/Social Icons1.png" alt="Image 1" style={{ width: 'auto', height: '30px' }} />
-          <img src="public/assets/Social Icons2.png" alt="Image 2" style={{ width: 'auto', height: '30px' }} />
-          <img src="public/assets/Social Icons3.png" alt="Image 3" style={{ width: 'auto', height: '30px' }} />
+          <img src="public/assets/Social Icons1.png" alt="Image 1" style={{ width: 'auto', height: '20px' }} />
+          <img src="public/assets/Social Icons2.png" alt="Image 2" style={{ width: 'auto', height: '20px' }} />
+          <img src="public/assets/Social Icons3.png" alt="Image 3" style={{ width: 'auto', height: '20px' }} />
         </div>
       </div>
 
