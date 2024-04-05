@@ -56,7 +56,7 @@ export function Overlay() {
     state.open = !state.open; // Toggle between true and false
   };
   const switchModel = (model) => {
-    state.modelPath = `public/assets/${model}.glb`;
+    state.modelPath = `/assets/${model}.glb`;
   };
 
   const switchToWhiteModel = () => {
@@ -126,9 +126,9 @@ export function Overlay() {
           justifyContent: 'space-between', // Distribute space between images
           width: '80px', // Adjust the width as necessary
         }}>
-          <img src="public/assets/Social Icons1.png" alt="Image 1" style={{ width: 'auto', height: '20px' }} />
-          <img src="public/assets/Social Icons2.png" alt="Image 2" style={{ width: 'auto', height: '20px' }} />
-          <img src="public/assets/Social Icons3.png" alt="Image 3" style={{ width: 'auto', height: '20px' }} />
+          <img src="/assets/Social Icons1.png" alt="Image 1" style={{ width: 'auto', height: '20px' }} />
+          <img src="/assets/Social Icons2.png" alt="Image 2" style={{ width: 'auto', height: '20px' }} />
+          <img src="/assets/Social Icons3.png" alt="Image 3" style={{ width: 'auto', height: '20px' }} />
         </div>
       </div>
 
@@ -223,7 +223,7 @@ export function Overlay() {
           <div style={{ display: 'flex', alignItems: 'center', marginBottom: '0.2em' }}>
             <p className="price">
             $50.51</p>
-            <img src="public/assets/Shopping Cart.png" alt="Cart" style={{ width: 30, marginLeft: '10px', marginTop:'10px' }} />
+            <img src="/assets/Shopping Cart.png" alt="Cart" style={{ width: 30, marginLeft: '10px', marginTop:'10px' }} />
           </div>
 
           <p>
@@ -234,8 +234,8 @@ export function Overlay() {
 
       </div>
 
-      <img src="public/assets/logo.png" alt="Logo" style={{ position: 'absolute', top: 40, left: 40, width: 150 }} />
-      <img src="public/assets/Shopping Bag.png" alt="Bag" style={{ position: 'absolute', top: 40, right: 60, width: 30 }} />
+      <img src="/assets/logo.png" alt="Logo" style={{ position: 'absolute', top: 40, left: 40, width: 150 }} />
+      <img src="/assets/Shopping Bag.png" alt="Bag" style={{ position: 'absolute', top: 40, right: 60, width: 30 }} />
 
     </>
   )
